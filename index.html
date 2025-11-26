@@ -59,13 +59,14 @@
                     <td>Miercoles</td>
                     <td>Estudio personal</td>
                 </tr>
+                <tr>
                     <td>Jueves</td>
                     <td>Ver una pelicula</td>
                 </tr>
+                <tr>
                     <td>Viernes</td>
                     <td>Salida</td>
                 </tr>
-
             </tbody>
         </table>
     </section>
@@ -73,15 +74,16 @@
     <section>
         <h2>Formulario de Contacto</h2>
 
-        <form id="formContacto">
+        <!-- FORMULARIO CONFIGURADO PARA FORMSPREE -->
+        <form id="formContacto" action="https://formspree.io/f/xrbwzkeq" method="POST">
             <label>Nombre:</label>
-            <input type="text" id="nombre">
+            <input type="text" id="nombre" name="nombre" required>
 
             <label>Correo electrónico:</label>
-            <input type="email" id="correo">
+            <input type="email" id="correo" name="correo" required>
 
             <label>Motivo de contacto:</label>
-            <textarea id="motivo"></textarea>
+            <textarea id="motivo" name="motivo" required></textarea>
 
             <button type="submit">Enviar</button>
         </form>
