@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mi Sitio Web</h1>
+        <p>Bienvenido a mi página personal</p>
+    </header>
+
+    <section>
+        <h2>Sobre mí</h2>
+        <p>Hola, mi nombre es Juan y este es mi sitio web creado para el laboratorio 4. Aquí comparto un poco sobre mí y mis intereses.</p>
+        <img src="https://i.pinimg.com/236x/ff/86/26/ff862671c153e0ade161dea6c8122254.jpg" alt="Mi foto personal" class="foto">
+    </section>
+
+    <section>
+        <h2>Mis Hobbies</h2>
+        <ul>
+            <li>Jugar fútbol</li>
+            <li>ver peliculas</li>
+            <li>Programar</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Tareas Prioritarias</h2>
+        <ol>
+            <li>Estudiar para calculo ll</li>
+            <li>Desarrollar el laboratorio web</li>
+            <li>Actualizar mi repositorio en GitHub</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Mi Horario Semanal</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Actividad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>Clase de programación</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>Entrenamiento</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>Estudio personal</td>
+                </tr>
+                    <td>Jueves</td>
+                    <td>Ver una pelicula</td>
+                </tr>
+                    <td>Viernes</td>
+                    <td>Salida</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Formulario de Contacto</h2>
+
+        <form id="formContacto">
+            <label>Nombre:</label>
+            <input type="text" id="nombre">
+
+            <label>Correo electrónico:</label>
+            <input type="email" id="correo">
+
+            <label>Motivo de contacto:</label>
+            <textarea id="motivo"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p id="mensaje"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Mi Web </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
